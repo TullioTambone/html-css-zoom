@@ -1,0 +1,40 @@
+/*reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+/*utility*/
+.flex{
+    display: flex;
+}
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+
+/* body */
+
+.k{
+    height: 100vh;
+}
+
+.box{
+    height: 90%;
+    background-color: lightblue;
+}
+
+footer{
+    height: 10%;
+    background-color: lightgreen;
+}
