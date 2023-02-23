@@ -10,10 +10,21 @@ img{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
 /*utility*/
 .flex{
     display: flex;
 }
+
+.wrap{
+    flex-wrap: wrap;
+}
+
 .absolute{
     position: absolute;
 }
@@ -22,19 +33,108 @@ img{
     position: relative;
 }
 
+.basis{
+    flex-basis: calc(100% / 7 - 5px);
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+.center-x{
+    justify-content: center;
+}
+
+.center-y{
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
 
 /* body */
 
-.k{
+.v-port{
     height: 100vh;
 }
 
 .box{
     height: 90%;
-    background-color: lightblue;
+    background-color: black
 }
 
+.container{
+    width: 80%;
+    height: 80%;
+}
+
+.position{
+    bottom: 0px;
+}
+
+.pos-alto-dx{
+    right: 0;
+    top: 10px;
+}
+
+.back-gray{
+    background-color: rgb(52, 51, 51);
+}
+
+.back-gray-op{
+    background-color: rgba(129, 127, 127, 0.5);
+    padding: 2px;
+}
+.red{
+    color: red;
+}
+
+.green{
+    color: rgb(6, 214, 6);
+}
+
+.adj{
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.mis{
+    padding: 0 20px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.padd{
+    padding: 5px;
+}
+/* footer */
 footer{
     height: 10%;
-    background-color: lightgreen;
+    background-color: #222222;
+    color: white;
+}
+
+.dim{
+    font-size: 15px;
+}
+
+.text-size{
+    font-size: 12px;
+}
+footer a i{
+    font-size: 20px;
+}
+
+footer a{
+    margin: 15px;
+}
+
+.centro a{
+    margin-left: 30px;
+    margin-right: 20px;
 }
